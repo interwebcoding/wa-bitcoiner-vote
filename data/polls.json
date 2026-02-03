@@ -20,10 +20,10 @@
       "bitcoin_usd_price": 78632,
       "participants": [
         {"name": "SHA_man", "guess": "< $90k"},
-        {"name": "Ayu Sophia", "guess": "< $90k"},
+        {"name": "Ayu", "guess": "< $90k"},
         {"name": "Robert", "guess": "< $90k"},
         {"name": "Helen", "guess": "< $90k"},
-        {"name": "chris scaglioni", "guess": "< $90k"},
+        {"name": "chris", "guess": "< $90k"},
         {"name": "Adrian", "guess": "$90k - $100k"},
         {"name": "OT", "guess": "$90k - $100k"},
         {"name": "Zee", "guess": "$90k - $100k"},
@@ -44,7 +44,7 @@
       "participants": [
         {"name": "turbo", "guess": "< $100k"},
         {"name": "Adrian", "guess": "$100k - $175k"},
-        {"name": "Ayu Sophia", "guess": "$100k - $175k"},
+        {"name": "Ayu", "guess": "$100k - $175k"},
         {"name": "Van", "guess": "$100k - $175k"},
         {"name": "Helen", "guess": "$100k - $175k"},
         {"name": "SHA_man", "guess": "$100k - $175k"},
