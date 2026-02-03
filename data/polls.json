@@ -21,6 +21,10 @@
                     "guess": "$90k - $100k"
                 },
                 {
+                    "name": "Bren Jr",
+                    "guess": "$90k - $100k"
+                },
+                {
                     "name": "Bren",
                     "guess": "$100k - $120k"
                 },
@@ -46,6 +50,10 @@
                 },
                 {
                     "name": "Ayu",
+                    "guess": "< $90k"
+                },
+                {
+                    "name": "Bren Jr",
                     "guess": "< $90k"
                 },
                 {
@@ -152,6 +160,10 @@
                 },
                 {
                     "name": "Goz",
+                    "guess": "> $500k"
+                },
+                {
+                    "name": "Bren Jr",
                     "guess": "> $500k"
                 },
                 {
