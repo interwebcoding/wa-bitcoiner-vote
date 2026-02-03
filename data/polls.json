@@ -19,22 +19,22 @@
       "month": "January 2026",
       "bitcoin_usd_price": 78632,
       "participants": [
-	{"name": "SHA_man", "guess": "< $90k"},
-      	{"name": "Ayu Sophia", "guess": "< $90k"},
-      	{"name": "Robert", "guess": "< $90k"},
-      	{"name": "Helen", "guess": "< $90k"},
-      	{"name": "chris scaglioni", "guess": "< $90k"},
-      	{"name": "Adrian", "guess": "$90k - $100k"},
-      	{"name": "OT", "guess": "$90k - $100k"},
-      	{"name": "Zee", "guess": "$90k - $100k"},
-	{"name": "J B", "guess": "$100k - $120k"},
-      	{"name": "Van", "guess": "$100k - $120k"},
-      	{"name": "Goz", "guess": "$100k - $120k"},
-      	{"name": "Yaro s", "guess": "> $120k"},
-      	{"name": "Bren", "guess": "> $120k"}
+        {"name": "SHA_man", "guess": "< $90k"},
+        {"name": "Ayu Sophia", "guess": "< $90k"},
+        {"name": "Robert", "guess": "< $90k"},
+        {"name": "Helen", "guess": "< $90k"},
+        {"name": "chris scaglioni", "guess": "< $90k"},
+        {"name": "Adrian", "guess": "$90k - $100k"},
+        {"name": "OT", "guess": "$90k - $100k"},
+        {"name": "Zee", "guess": "$90k - $100k"},
+        {"name": "J B", "guess": "$100k - $120k"},
+        {"name": "Van", "guess": "$100k - $120k"},
+        {"name": "Goz", "guess": "$100k - $120k"},
+        {"name": "Yaro s", "guess": "> $120k"},
+        {"name": "Bren", "guess": "> $120k"}
       ],
       "correct_range": "< $90k",
-      "notes": "AWAITING RESULTS - Need Bitcoin USD price at end of January 2026."
+      "notes": "Price was $78,632 USD."
     }
   },
   "yearly": {
@@ -42,13 +42,22 @@
       "year": 2026,
       "bitcoin_usd_price": null,
       "participants": [
-        {"name": "Bren", "guess": "$150k"},
-        {"name": "MOJave", "guess": "$200k"},
-        {"name": "Robert", "guess": "$180k"},
-        {"name": "Sam", "guess": "$130k"},
-        {"name": "Zee", "guess": "$140k"},
-        {"name": "OT", "guess": "$135k"},
-        {"name": "Van", "guess": "$175k"}
+        {"name": "turbo", "guess": "< $100k"},
+        {"name": "Adrian", "guess": "$100k - $175k"},
+        {"name": "Ayu Sophia", "guess": "$100k - $175k"},
+        {"name": "Van", "guess": "$100k - $175k"},
+        {"name": "Helen", "guess": "$100k - $175k"},
+        {"name": "SHA_man", "guess": "$100k - $175k"},
+        {"name": "J B", "guess": "$175k - $250k"},
+        {"name": "Yaro s", "guess": "$175k - $250k"},
+        {"name": "Zee", "guess": "$175k - $250k"},
+        {"name": "Robert", "guess": "$250k - $500k"},
+        {"name": "Sam", "guess": "$250k - $500k"},
+        {"name": "Alain", "guess": "$250k - $500k"},
+        {"name": "Bren", "guess": "$250k - $500k"},
+        {"name": "OT", "guess": "> $500k"},
+        {"name": "Goz", "guess": "> $500k"},
+        {"name": "Aaron", "guess": "> $500k"}
       ],
       "notes": "Winner revealed December 31, 2026!"
     }
