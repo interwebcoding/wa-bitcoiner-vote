@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - WA Bitcoiners Vote</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #1a1a2e;
+            color: #fff;
+            padding: 40px 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { color: #f7931a; margin-bottom: 30px; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; color: #8892b0; }
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.05);
+            color: #fff;
+            font-size: 1rem;
+        }
+        button {
+            background: linear-gradient(90deg, #f7931a, #ff6b6b);
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button:hover { opacity: 0.9; }
+        .participant-entry {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .participant-entry input { flex: 1; }
+        .remove-btn { background: #ff6b6b; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Add Poll Result</h1>
+        
+        <form id="pollForm">
+            <div class="form-group">
+                <label>Poll Type</label>
+                <select id="pollType">
+                    <option value="monthly">Monthly</option>
+                    <option value="yearly">Yearly</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Period (e.g., 2026-01 or 2026)</label>
+                <input type="text" id="period" placeholder="2026-01" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Bitcoin USD Price (end of month/year)</label>
+                <input type="number" id="price" placeholder="115000" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Participants</label>
+                <div id="participants">
+                    <div class="participant-entry">
+                        <input type="text" placeholder="Name" class="p-name" required>
+                        <input type="text" placeholder="Guess (e.g., $90k - $100k)" class="p-guess" required>
+                    </div>
+                </div>
+                <button type="button" onclick="addParticipant()">+ Add Participant</button>
+            </div>
+            
+            <button type="submit">💾 Save Poll Result</button>
+            <button type="button" onclick="generateJSON()">📋 Generate JSON</button>
+        </form>
+        
+        <div id="jsonOutput" style="margin-top: 30px; display: none;">
+            <label>JSON Output (copy this to polls.json)</label>
+            <textarea id="jsonResult" style="width: 100%; height: 200px; background: rgba(0,0,0,0.3); color: #4ade80; border: 1px solid #4ade80; border-radius: 8px; padding: 15px; font-family: monospace;"></textarea>
+        </div>
+    </div>
+    
+    <script>
+        function addParticipant() {
+            const div = document.createElement('div');
+            div.className = 'participant-entry';
+            div.innerHTML = `
+                <input type="text" placeholder="Name" class="p-name">
+                <input type="text" placeholder="Guess" class="p-guess">
+                <button type="button" class="remove-btn" onclick="this.parentElement.remove()">✕</button>
+            `;
+            document.getElementById('participants').appendChild(div);
+        }
+        
+        function generateJSON() {
+            const pollType = document.getElementById('pollType').value;
+            const period = document.getElementById('period').value;
+            const price = document.getElementById('price').value;
+            
+            const participants = [];
+            document.querySelectorAll('.participant-entry').forEach(entry => {
+                const name = entry.querySelector('.p-name').value;
+                const guess = entry.querySelector('.p-guess').value;
+                if (name && guess) {
+                    participants.push({ name, guess });
+                }
+            });
+            
+            const json = {
+                [pollType]: {
+                    [period]: {
+                        month: pollType === 'monthly' ? new Date(period + '-01').toLocaleDateString('en-US', { month: 'long', year: 'numeric' }) : period,
+                        year: pollType === 'yearly' ? parseInt(period) : null,
+                        bitcoin_aud_price: parseFloat(price),
+                        participants: participants
+                    }
+                }
+            };
+            
+            document.getElementById('jsonOutput').style.display = 'block';
+            document.getElementById('jsonResult').value = JSON.stringify(json, null, 2);
+        }
+        
+        document.getElementById('pollForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            generateJSON();
+            alert('JSON generated! Copy it to your polls.json file.');
+        });
+    </script>
+</body>
+</html>
