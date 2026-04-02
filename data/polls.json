@@ -169,6 +169,10 @@
             "bitcoin_usd_price": 66694,
             "participants": [
                 {
+                    "name": "Nuadha",
+                    "guess": "< $60k"
+                },
+                {
                     "name": "Robert",
                     "guess": "< $60k"
                 },
@@ -214,7 +218,7 @@
                 }
             ],
             "correct_range": "$60k - $70k",
-            "notes": "Price was $66,694 USD. OT/Yaro s/Gamboy4000/Anthony M/Van guessed $60k-$70k (CORRECT - 3pts each). Lolly guessed $70k-$80k (closest incorrect - 1pt). Robert/SHA_man/Bren guessed <$60k (0pts). Alain/Sam guessed >$80k (0pts)."
+            "notes": "Price was $66,694 USD. OT/Yaro s/Gamboy4000/Anthony M/Van guessed $60k-$70k (CORRECT - 3pts each). Lolly guessed $70k-$80k (closest incorrect - 1pt). Nuadha/Robert/SHA_man/Bren guessed <$60k (0pts). Alain/Sam guessed >$80k (0pts)."
         }
     },
     "yearly": {
