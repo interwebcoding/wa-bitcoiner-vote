@@ -219,6 +219,50 @@
             ],
             "correct_range": "$60k - $70k",
             "notes": "Price was $66,694 USD. OT/Yaro s/Gamboy4000/Anthony M/Van guessed $60k-$70k (CORRECT - 3pts each). Lolly guessed $70k-$80k (closest incorrect - 1pt). Nuadha/Robert/SHA_man/Bren guessed <$60k (0pts). Alain/Sam guessed >$80k (0pts)."
+        },
+        "2026-04": {
+            "month": "April 2026",
+            "bitcoin_usd_price": 76315,
+            "participants": [
+                {
+                    "name": "Nuadha",
+                    "guess": "< $60k"
+                },
+                {
+                    "name": "Gamboy4000",
+                    "guess": "$60k - $70k"
+                },
+                {
+                    "name": "Goz",
+                    "guess": "$60k - $70k"
+                },
+                {
+                    "name": "chris",
+                    "guess": "$60k - $70k"
+                },
+                {
+                    "name": "Bren",
+                    "guess": "$70k - $80k"
+                },
+                {
+                    "name": "Yaro s",
+                    "guess": "$70k - $80k"
+                },
+                {
+                    "name": "OT",
+                    "guess": "$70k - $80k"
+                },
+                {
+                    "name": "J B",
+                    "guess": "> $80k"
+                },
+                {
+                    "name": "Sam",
+                    "guess": "> $80k"
+                }
+            ],
+            "correct_range": "$70k - $80k",
+            "notes": "Price was $76,315 USD. Bren/Yaro s/OT guessed $70k-$80k (CORRECT - 3pts each). J B/Sam guessed >$80k (closest incorrect - 1pt each). Gamboy4000/Goz/chris guessed $60k-$70k (0pts). Nuadha guessed <$60k (0pts)."
         }
     },
     "yearly": {

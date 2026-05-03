@@ -31,6 +31,13 @@ def parse_guess(guess: str) -> tuple:
             return (0, float(val))
         except:
             pass
+
+    if '>' in guess:
+        val = guess.replace('>', '').replace('$', '').replace('k', '000').replace('K', '000').strip()
+        try:
+            return (float(val), float('inf'))
+        except:
+            pass
     
     if 'k' in guess.lower():
         val = guess.replace('$', '').replace('k', '000').replace('K', '000').strip()
