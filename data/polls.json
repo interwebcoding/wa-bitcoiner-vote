@@ -1,341 +1,393 @@
 {
-    "monthly": {
-        "2025-12": {
-            "month": "December 2025",
-            "bitcoin_usd_price": 87553,
-            "participants": [
-                {
-                    "name": "Robert",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Zee",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "OT",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "Van",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "Bren Jr",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "Bren",
-                    "guess": "$100k - $120k"
-                },
-                {
-                    "name": "MOJave",
-                    "guess": "$100k - $120k"
-                },
-                {
-                    "name": "Sam",
-                    "guess": "$100k - $120k"
-                }
-            ],
-            "correct_range": "< $90k",
-            "notes": "Price was $87,553 USD. Robert guessed <$90k (CORRECT - 3pts). Zee/OT/Van guessed $90k-$100k (closest incorrect - 1pt). Bren/MOJave/Sam guessed $100k-$120k (0pts)."
+  "monthly": {
+    "2025-12": {
+      "month": "December 2025",
+      "bitcoin_usd_price": 87553,
+      "participants": [
+        {
+          "name": "Robert",
+          "guess": "< $90k"
         },
-        "2026-01": {
-            "month": "January 2026",
-            "bitcoin_usd_price": 78632,
-            "participants": [
-                {
-                    "name": "SHA_man",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Looking Glass",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Bren Jr",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Robert",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "chris",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Adrian",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "OT",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "Zee",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "J B",
-                    "guess": "$100k - $120k"
-                },
-                {
-                    "name": "Van",
-                    "guess": "$100k - $120k"
-                },
-                {
-                    "name": "Goz",
-                    "guess": "$100k - $120k"
-                },
-                {
-                    "name": "Yaro s",
-                    "guess": "> $120k"
-                },
-                {
-                    "name": "Bren",
-                    "guess": "> $120k"
-                }
-            ],
-            "correct_range": "< $90k",
-            "notes": "Price was $78,632 USD."
+        {
+          "name": "Zee",
+          "guess": "$90k - $100k"
         },
-        "2026-02": {
-            "month": "February 2026",
-            "bitcoin_usd_price": 65762,
-            "participants": [
-                {
-                    "name": "Bren",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "OT",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Van",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "T D",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "SHA_man",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Looking Glass",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "chris",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Gamboy4000",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Nuadha",
-                    "guess": "< $90k"
-                },
-                {
-                    "name": "Sam",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "Alain",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "J B",
-                    "guess": "$90k - $100k"
-                },
-                {
-                    "name": "Yaro s",
-                    "guess": "$100k - $120k"
-                },
-                {
-                    "name": "Goz",
-                    "guess": "$100k - $120k"
-                }
-            ],
-            "correct_range": "< $90k",
-            "notes": "Price was $65,762 USD. Bren/OT/Looking Glass/chris/Van/T D/SHA_man/Gamboy4000/Nuadha guessed <$90k (CORRECT - 3pts each). Sam/Alain/J B guessed $90k-$100k (closest incorrect - 1pt each). Yaro s/Goz guessed $100k-$120k (0pts)."
+        {
+          "name": "OT",
+          "guess": "$90k - $100k"
         },
-        "2026-03": {
-            "month": "March 2026",
-            "bitcoin_usd_price": 68225,
-            "participants": [
-                {
-                    "name": "Nuadha",
-                    "guess": "< $60k"
-                },
-                {
-                    "name": "Robert",
-                    "guess": "< $60k"
-                },
-                {
-                    "name": "SHA_man",
-                    "guess": "< $60k"
-                },
-                {
-                    "name": "Bren",
-                    "guess": "< $60k"
-                },
-                {
-                    "name": "OT",
-                    "guess": "$60k - $70k"
-                },
-                {
-                    "name": "Yaro s",
-                    "guess": "$60k - $70k"
-                },
-                {
-                    "name": "Gamboy4000",
-                    "guess": "$60k - $70k"
-                },
-                {
-                    "name": "Anthony M",
-                    "guess": "$60k - $70k"
-                },
-                {
-                    "name": "Van",
-                    "guess": "$60k - $70k"
-                },
-                {
-                    "name": "Lolly",
-                    "guess": "$70k - $80k"
-                },
-                {
-                    "name": "Alain",
-                    "guess": "> $80k"
-                },
-                {
-                    "name": "Sam",
-                    "guess": "> $80k"
-                }
-            ],
-            "correct_range": "$60k - $70k",
-            "notes": "Price was $66,694 USD. OT/Yaro s/Gamboy4000/Anthony M/Van guessed $60k-$70k (CORRECT - 3pts each). Lolly guessed $70k-$80k (closest incorrect - 1pt). Nuadha/Robert/SHA_man/Bren guessed <$60k (0pts). Alain/Sam guessed >$80k (0pts)."
+        {
+          "name": "Van",
+          "guess": "$90k - $100k"
         },
-        "2026-04": {
-            "month": "April 2026",
-            "bitcoin_usd_price": 76315,
-            "participants": [
-                {
-                    "name": "Nuadha",
-                    "guess": "< $60k"
-                },
-                {
-                    "name": "Gamboy4000",
-                    "guess": "$60k - $70k"
-                },
-                {
-                    "name": "Goz",
-                    "guess": "$60k - $70k"
-                },
-                {
-                    "name": "chris",
-                    "guess": "$60k - $70k"
-                },
-                {
-                    "name": "Bren",
-                    "guess": "$70k - $80k"
-                },
-                {
-                    "name": "Yaro s",
-                    "guess": "$70k - $80k"
-                },
-                {
-                    "name": "OT",
-                    "guess": "$70k - $80k"
-                },
-                {
-                    "name": "J B",
-                    "guess": "> $80k"
-                },
-                {
-                    "name": "Sam",
-                    "guess": "> $80k"
-                }
-            ],
-            "correct_range": "$70k - $80k",
-            "notes": "Price was $76,315 USD. Bren/Yaro s/OT guessed $70k-$80k (CORRECT - 3pts each). J B/Sam guessed >$80k (closest incorrect - 1pt each). Gamboy4000/Goz/chris guessed $60k-$70k (0pts). Nuadha guessed <$60k (0pts)."
+        {
+          "name": "Bren Jr",
+          "guess": "$90k - $100k"
+        },
+        {
+          "name": "Bren",
+          "guess": "$100k - $120k"
+        },
+        {
+          "name": "MOJave",
+          "guess": "$100k - $120k"
+        },
+        {
+          "name": "Sam",
+          "guess": "$100k - $120k"
         }
+      ],
+      "correct_range": "< $90k",
+      "notes": "Price was $87,553 USD. Robert guessed <$90k (CORRECT - 3pts). Zee/OT/Van guessed $90k-$100k (closest incorrect - 1pt). Bren/MOJave/Sam guessed $100k-$120k (0pts)."
     },
-    "yearly": {
-        "2026": {
-            "year": 2026,
-            "bitcoin_usd_price": null,
-            "participants": [
-                {
-                    "name": "turbo",
-                    "guess": "< $100k"
-                },
-                {
-                    "name": "Adrian",
-                    "guess": "$100k - $175k"
-                },
-                {
-                    "name": "Looking Glass",
-                    "guess": "$100k - $175k"
-                },
-                {
-                    "name": "Van",
-                    "guess": "$100k - $175k"
-                },
-                {
-                    "name": "SHA_man",
-                    "guess": "$100k - $175k"
-                },
-                {
-                    "name": "J B",
-                    "guess": "$175k - $250k"
-                },
-                {
-                    "name": "Yaro s",
-                    "guess": "$175k - $250k"
-                },
-                {
-                    "name": "Zee",
-                    "guess": "$175k - $250k"
-                },
-                {
-                    "name": "Robert",
-                    "guess": "$250k - $500k"
-                },
-                {
-                    "name": "Sam",
-                    "guess": "$250k - $500k"
-                },
-                {
-                    "name": "Alain",
-                    "guess": "$250k - $500k"
-                },
-                {
-                    "name": "Bren",
-                    "guess": "$250k - $500k"
-                },
-                {
-                    "name": "OT",
-                    "guess": "> $500k"
-                },
-                {
-                    "name": "Goz",
-                    "guess": "> $500k"
-                },
-                {
-                    "name": "Bren Jr",
-                    "guess": "> $500k"
-                },
-                {
-                    "name": "Aaron",
-                    "guess": "> $500k"
-                }
-            ],
-            "notes": "Winner revealed December 31, 2026!"
+    "2026-01": {
+      "month": "January 2026",
+      "bitcoin_usd_price": 78632,
+      "participants": [
+        {
+          "name": "SHA_man",
+          "guess": "< $90k"
+        },
+        {
+          "name": "Looking Glass",
+          "guess": "< $90k"
+        },
+        {
+          "name": "Bren Jr",
+          "guess": "< $90k"
+        },
+        {
+          "name": "Robert",
+          "guess": "< $90k"
+        },
+        {
+          "name": "chris",
+          "guess": "< $90k"
+        },
+        {
+          "name": "Adrian",
+          "guess": "$90k - $100k"
+        },
+        {
+          "name": "OT",
+          "guess": "$90k - $100k"
+        },
+        {
+          "name": "Zee",
+          "guess": "$90k - $100k"
+        },
+        {
+          "name": "J B",
+          "guess": "$100k - $120k"
+        },
+        {
+          "name": "Van",
+          "guess": "$100k - $120k"
+        },
+        {
+          "name": "Goz",
+          "guess": "$100k - $120k"
+        },
+        {
+          "name": "Yaro s",
+          "guess": "> $120k"
+        },
+        {
+          "name": "Bren",
+          "guess": "> $120k"
         }
+      ],
+      "correct_range": "< $90k",
+      "notes": "Price was $78,632 USD."
+    },
+    "2026-02": {
+      "month": "February 2026",
+      "bitcoin_usd_price": 65762,
+      "participants": [
+        {
+          "name": "Bren",
+          "guess": "< $90k"
+        },
+        {
+          "name": "OT",
+          "guess": "< $90k"
+        },
+        {
+          "name": "Van",
+          "guess": "< $90k"
+        },
+        {
+          "name": "T D",
+          "guess": "< $90k"
+        },
+        {
+          "name": "SHA_man",
+          "guess": "< $90k"
+        },
+        {
+          "name": "Looking Glass",
+          "guess": "< $90k"
+        },
+        {
+          "name": "chris",
+          "guess": "< $90k"
+        },
+        {
+          "name": "Gamboy4000",
+          "guess": "< $90k"
+        },
+        {
+          "name": "Nuadha",
+          "guess": "< $90k"
+        },
+        {
+          "name": "Sam",
+          "guess": "$90k - $100k"
+        },
+        {
+          "name": "Alain",
+          "guess": "$90k - $100k"
+        },
+        {
+          "name": "J B",
+          "guess": "$90k - $100k"
+        },
+        {
+          "name": "Yaro s",
+          "guess": "$100k - $120k"
+        },
+        {
+          "name": "Goz",
+          "guess": "$100k - $120k"
+        }
+      ],
+      "correct_range": "< $90k",
+      "notes": "Price was $65,762 USD. Bren/OT/Looking Glass/chris/Van/T D/SHA_man/Gamboy4000/Nuadha guessed <$90k (CORRECT - 3pts each). Sam/Alain/J B guessed $90k-$100k (closest incorrect - 1pt each). Yaro s/Goz guessed $100k-$120k (0pts)."
+    },
+    "2026-03": {
+      "month": "March 2026",
+      "bitcoin_usd_price": 68225,
+      "participants": [
+        {
+          "name": "Nuadha",
+          "guess": "< $60k"
+        },
+        {
+          "name": "Robert",
+          "guess": "< $60k"
+        },
+        {
+          "name": "SHA_man",
+          "guess": "< $60k"
+        },
+        {
+          "name": "Bren",
+          "guess": "< $60k"
+        },
+        {
+          "name": "OT",
+          "guess": "$60k - $70k"
+        },
+        {
+          "name": "Yaro s",
+          "guess": "$60k - $70k"
+        },
+        {
+          "name": "Gamboy4000",
+          "guess": "$60k - $70k"
+        },
+        {
+          "name": "Anthony M",
+          "guess": "$60k - $70k"
+        },
+        {
+          "name": "Van",
+          "guess": "$60k - $70k"
+        },
+        {
+          "name": "Lolly",
+          "guess": "$70k - $80k"
+        },
+        {
+          "name": "Alain",
+          "guess": "> $80k"
+        },
+        {
+          "name": "Sam",
+          "guess": "> $80k"
+        }
+      ],
+      "correct_range": "$60k - $70k",
+      "notes": "Price was $66,694 USD. OT/Yaro s/Gamboy4000/Anthony M/Van guessed $60k-$70k (CORRECT - 3pts each). Lolly guessed $70k-$80k (closest incorrect - 1pt). Nuadha/Robert/SHA_man/Bren guessed <$60k (0pts). Alain/Sam guessed >$80k (0pts)."
+    },
+    "2026-04": {
+      "month": "April 2026",
+      "bitcoin_usd_price": 76315,
+      "participants": [
+        {
+          "name": "Nuadha",
+          "guess": "< $60k"
+        },
+        {
+          "name": "Gamboy4000",
+          "guess": "$60k - $70k"
+        },
+        {
+          "name": "Goz",
+          "guess": "$60k - $70k"
+        },
+        {
+          "name": "chris",
+          "guess": "$60k - $70k"
+        },
+        {
+          "name": "Bren",
+          "guess": "$70k - $80k"
+        },
+        {
+          "name": "Yaro s",
+          "guess": "$70k - $80k"
+        },
+        {
+          "name": "OT",
+          "guess": "$70k - $80k"
+        },
+        {
+          "name": "J B",
+          "guess": "> $80k"
+        },
+        {
+          "name": "Sam",
+          "guess": "> $80k"
+        }
+      ],
+      "correct_range": "$70k - $80k",
+      "notes": "Price was $76,315 USD. Bren/Yaro s/OT guessed $70k-$80k (CORRECT - 3pts each). J B/Sam guessed >$80k (closest incorrect - 1pt each). Gamboy4000/Goz/chris guessed $60k-$70k (0pts). Nuadha guessed <$60k (0pts)."
+    },
+    "2026-05": {
+      "month": "May 2026",
+      "bitcoin_usd_price": 73611,
+      "participants": [
+        {
+          "name": "turbo",
+          "guess": "$60k - $75k"
+        },
+        {
+          "name": "chris",
+          "guess": "$60k - $75k"
+        },
+        {
+          "name": "OT",
+          "guess": "$75k - $90k"
+        },
+        {
+          "name": "Anthony M",
+          "guess": "$75k - $90k"
+        },
+        {
+          "name": "Robert",
+          "guess": "$75k - $90k"
+        },
+        {
+          "name": "Nuadha",
+          "guess": "$75k - $90k"
+        },
+        {
+          "name": "Sam",
+          "guess": ">$90k"
+        },
+        {
+          "name": "J B",
+          "guess": ">$90k"
+        },
+        {
+          "name": "Yaro s",
+          "guess": ">$90k"
+        },
+        {
+          "name": "Alain",
+          "guess": ">$90k"
+        },
+        {
+          "name": "Bren",
+          "guess": ">$90k"
+        }
+      ],
+      "correct_range": "$60k - $75k",
+      "notes": "Price was $73,611 USD (closed in $60k-$75k bracket). turbo/chris guessed $60k-$75k (CORRECT - 3pts each). OT/Anthony M/Robert/Nuadha guessed $75k-$90k (closest incorrect - 1pt each). Sam/J B/Yaro s/Alain/Bren guessed >$90k (0pts)."
     }
+  },
+  "yearly": {
+    "2026": {
+      "year": 2026,
+      "bitcoin_usd_price": null,
+      "participants": [
+        {
+          "name": "turbo",
+          "guess": "< $100k"
+        },
+        {
+          "name": "Adrian",
+          "guess": "$100k - $175k"
+        },
+        {
+          "name": "Looking Glass",
+          "guess": "$100k - $175k"
+        },
+        {
+          "name": "Van",
+          "guess": "$100k - $175k"
+        },
+        {
+          "name": "SHA_man",
+          "guess": "$100k - $175k"
+        },
+        {
+          "name": "J B",
+          "guess": "$175k - $250k"
+        },
+        {
+          "name": "Yaro s",
+          "guess": "$175k - $250k"
+        },
+        {
+          "name": "Zee",
+          "guess": "$175k - $250k"
+        },
+        {
+          "name": "Robert",
+          "guess": "$250k - $500k"
+        },
+        {
+          "name": "Sam",
+          "guess": "$250k - $500k"
+        },
+        {
+          "name": "Alain",
+          "guess": "$250k - $500k"
+        },
+        {
+          "name": "Bren",
+          "guess": "$250k - $500k"
+        },
+        {
+          "name": "OT",
+          "guess": "> $500k"
+        },
+        {
+          "name": "Goz",
+          "guess": "> $500k"
+        },
+        {
+          "name": "Bren Jr",
+          "guess": "> $500k"
+        },
+        {
+          "name": "Aaron",
+          "guess": "> $500k"
+        }
+      ],
+      "notes": "Winner revealed December 31, 2026!"
+    }
+  }
 }
