@@ -266,7 +266,7 @@
     },
     "2026-05": {
       "month": "May 2026",
-      "bitcoin_usd_price": 58553.0,
+      "bitcoin_usd_price": 73611,
       "participants": [
         {
           "name": "turbo",
@@ -314,7 +314,7 @@
         }
       ],
       "correct_range": "$60k - $75k",
-      "notes": "Price was $58,553 USD \u2014 fell in a bracket no one picked. turbo, chris guessed $60k - $75k (closest incorrect - 1pt each). Others (0pts)."
+      "notes": "Price was $73,611 USD (closed in $60k-$75k bracket). turbo/chris guessed $60k-$75k (CORRECT - 3pts each). OT/Anthony M/Robert/Nuadha guessed $75k-$90k (closest incorrect - 1pt each). Sam/J B/Yaro s/Alain/Bren guessed >$90k (0pts)."
     }
   },
   "yearly": {
