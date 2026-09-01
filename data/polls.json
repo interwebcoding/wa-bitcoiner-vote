@@ -367,6 +367,54 @@
       ],
       "correct_range": "$60k - $70k",
       "notes": "Price was $64,777 USD. Anthony M, OT guessed $60k - $70k (CORRECT - 3pts each). Brett, Nuadha guessed $50k - $60k (closest incorrect - 1pt each). Others (0pts)."
+    },
+    "2026-08": {
+      "month": "August 2026",
+      "bitcoin_usd_price": 78566.0,
+      "participants": [
+        {
+          "name": "Yaro s",
+          "guess": "< $55k"
+        },
+        {
+          "name": "Alain",
+          "guess": "< $55k"
+        },
+        {
+          "name": "OT",
+          "guess": "$55k - $65k"
+        },
+        {
+          "name": "chris",
+          "guess": "$55k - $65k"
+        },
+        {
+          "name": "Erin Walsh",
+          "guess": "$55k - $65k"
+        },
+        {
+          "name": "Nuadha",
+          "guess": "$55k - $65k"
+        },
+        {
+          "name": "Bren",
+          "guess": "$65k - $75k"
+        },
+        {
+          "name": "Anthony M",
+          "guess": "$65k - $75k"
+        },
+        {
+          "name": "J B",
+          "guess": "> $75k"
+        },
+        {
+          "name": "Sam",
+          "guess": "> $75k"
+        }
+      ],
+      "correct_range": "> $75k",
+      "notes": "Price was $78,566 USD. J B, Sam guessed > $75k (CORRECT - 3pts each). Bren, Anthony M guessed $65k - $75k (closest incorrect - 1pt each). Others (0pts)."
     }
   },
   "yearly": {
