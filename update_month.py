@@ -43,6 +43,7 @@ INDEX_HTML = ROOT / "index.html"
 # History (do not delete — git log + this map are the canonical record):
 #   Roy          → Nuadha
 #   chris scaglioni → chris
+#   Erin Walsh   → Erin (privacy — drop surname, do not publish full name)
 #   Helen        → removed (per repo history)
 #   Ayu Sophia   → Ayu
 #   Ayu          → Looking Glass
@@ -51,6 +52,8 @@ NAME_MAP: dict[str, str] = {
     "chris scaglioni": "chris",
     "chris_scaglioni": "chris",
     "chrisscaglioni": "chris",
+    "erin walsh": "Erin",
+    "erinwalsh": "Erin",
     "ay sophia": "Looking Glass",
     "ayu sophia": "Looking Glass",
     "ayu": "Looking Glass",
