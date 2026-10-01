@@ -415,6 +415,58 @@
       ],
       "correct_range": "> $75k",
       "notes": "Price was $78,566 USD. J B, Sam guessed > $75k (CORRECT - 3pts each). Bren, Anthony M guessed $65k - $75k (closest incorrect - 1pt each). Others (0pts)."
+    },
+    "2026-09": {
+      "month": "September 2026",
+      "bitcoin_usd_price": 83640.1,
+      "participants": [
+        {
+          "name": "Robert",
+          "guess": "$60k-$75k"
+        },
+        {
+          "name": "turbo",
+          "guess": "$60k-$75k"
+        },
+        {
+          "name": "Gamboy4000",
+          "guess": "$60k-$75k"
+        },
+        {
+          "name": "chris",
+          "guess": "$60k-$75k"
+        },
+        {
+          "name": "Yaro s",
+          "guess": "$75k-$90k"
+        },
+        {
+          "name": "Anthony M",
+          "guess": "$75k-$90k"
+        },
+        {
+          "name": "Bren",
+          "guess": "$75k-$90k"
+        },
+        {
+          "name": "OT",
+          "guess": "$75k-$90k"
+        },
+        {
+          "name": "Goz",
+          "guess": "$75k-$90k"
+        },
+        {
+          "name": "Alain",
+          "guess": "$75k-$90k"
+        },
+        {
+          "name": "J B",
+          "guess": ">$90k"
+        }
+      ],
+      "correct_range": "$75k - $90k",
+      "notes": "Price was $83,640 USD. Yaro s, Anthony M, Bren, OT, Goz, Alain guessed $75k - $90k (CORRECT - 3pts each). J B guessed > $90k (closest incorrect - 1pt each). Others (0pts)."
     }
   },
   "yearly": {
